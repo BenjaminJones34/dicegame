@@ -1,0 +1,86 @@
+html {
+    background-image: linear-gradient(60deg, pink, turquoise);
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#top {
+    width: 100%;
+    text-align: center;
+    height: 200px
+}
+
+#players {
+    width: 100%;
+    display: flex;
+}
+
+.playersection {
+    text-align: center;
+    height: 600px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid black;
+    justify-self: center;
+}
+
+#player1text {
+    font-size: 30px;
+}
+
+#player2text {
+    font-size: 30px;
+}
+
+.imagesection {
+    width: 75%;
+    height: 300px;
+    text-align: center
+}
+
+#image1 {
+    visibility: hidden;
+    height: 250px;
+    width: 250px;
+}
+
+#image2 {
+    visibility: hidden;
+    height: 250px;
+    width: 250px;
+}
+
+.main {
+    width: 75%;
+    text-align: center;
+    height: 200px
+}
+
+#back {
+    align-self: flex-start;
+    width: 100%;
+    text-align: left;
+}
+
+.button {
+    margin-top: 50px;
+    width: 20%;
+    max-width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+}
+
+#hold1, #hold2, #roll1, #roll2 {
+    background-color: rgba(128, 0, 128, 0.1);
+}

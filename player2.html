@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2 Player</title>
+    <link rel="stylesheet" href="styles/2player.css">
+</head>
+<body>
+    <div id="top">
+        <h1>2 Player</h1>
+        <button id="newgame" class="button">New Game</button>
+    </div>
+    <div id="players">
+        <div id="player1" class="playersection">
+            <div>
+                <p id="player1text">Player 1</p>
+            </div>
+            <div class="imagesection">
+                <img src="none" id="image1">
+            </div>
+            <div class="main">
+                <p id="score1">Current score: 0</p>
+                <button id="roll1" class="button" disabled>roll</button>
+                <button id="hold1" class="button" disabled>hold</button>
+            </div>
+        </div>
+        <div id="player2" class="playersection">
+            <div>
+                <p id="player2text">Player 2</p>
+            </div>
+            <div class="imagesection">
+                <img src="none" id="image2">
+            </div>
+            <div class="main">
+                <p id="score2">Current score: 0</p>
+                <button id="roll2" class="button" disabled>roll</button>
+                <button id="hold2" class="button" disabled>hold</button>
+            </div>
+        </div>
+    </div>
+    <div id="back">
+        <a href="index.html">
+            <button class="button">Go back</button>
+        </a>
+    </div>
+    <script src="scripts/2player.js"></script>
+</body>
+</html>
